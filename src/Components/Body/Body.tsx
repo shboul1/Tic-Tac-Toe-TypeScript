@@ -31,7 +31,6 @@ export default function Body() {
           cells[pattren[1]] === "" ||
           cells[pattren[2]] === ""
         ) {
-          // do nothing
         } else if (
           cells[pattren[0]] === cells[pattren[1]] &&
           cells[pattren[1]] === cells[pattren[2]]
